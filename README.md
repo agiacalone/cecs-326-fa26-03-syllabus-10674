@@ -1,5 +1,6 @@
 ---
-serial: 16ABDA95
+serial: 31EAA4C3
+revision-of: 16ABDA95
 ---
 <!--
 ═══════════════════════════════════════════════════════════════════════════
@@ -7,7 +8,8 @@ serial: 16ABDA95
   Edit ONLY the two marked blocks below:
     1.  COURSE INFORMATION table   (search: "TERM VARIABLES — COURSE")
     2.  TENTATIVE SCHEDULE table   (search: "TERM VARIABLES — SCHEDULE")
-  Then update the five vars at the top of gen_output.sh and run it.
+  Then run ./gen_output.sh — it derives course, term, section and class
+  number from the repo directory name, so there is nothing in it to edit.
   Everything else is term-invariant boilerplate.
   Styling lives in syllabus.css (Swiss/grid theme, screen + print).
 ═══════════════════════════════════════════════════════════════════════════
@@ -233,4 +235,4 @@ Any student facing academic or personal challenges due to difficulty affording g
 
 </details>
 
-*Syllabus version 16ABDA95 · 2026-08-24*
+*Syllabus version 31EAA4C3 · 2026-09-06*
